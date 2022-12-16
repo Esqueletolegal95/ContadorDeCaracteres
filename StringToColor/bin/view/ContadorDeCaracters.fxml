@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="fundo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="763.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <TextArea fx:id="texto" layoutX="152.0" layoutY="89.0" onKeyTyped="#botaopressionado" prefHeight="314.0" prefWidth="460.0" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></TextArea>
+      <Text fx:id="contador" layoutX="283.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Counter: " wrappingWidth="169.13671875">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="cor" layoutX="500.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color: white" wrappingWidth="224.13671875">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
